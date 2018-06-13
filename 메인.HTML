@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	 <meta charset="UTF-8">
+	 <style>
+	body{
+	background-image:url('발표/배경화면.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	
+	#ani{
+	width: 1359px;
+	height: 600px;
+	position:absolute;
+	animation:30s bbani;
+	animation-iteration-count:100;
+	
+	
+	}
+	@keyframes bbani{
+	0% {left:0px;top:0px;background-image:url('발표/와우.jpg');}
+	10% {left:0px;top:0px;background-image:url('발표/히오스.jpg');}
+	30% {left:0px;top:0px;background-image:url('발표/하스스톤.jpg');}
+	50% {left:0px;top:0px;background-image:url('발표/오바와치.jpg');}
+	70% {left:0px;top:0px;background-image:url('발표/디아블로.jpg');}
+	100% {left:0px;top:0px;background-image:url('발표/스타2.jpg');}
+	}
+	
+	#hots{
+	animation-duration: 3s;
+    animation-name: slidein;
+    }
+
+	@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+	
+	 </style>
+	</head>
+	
+	<body >	
+	<div id="ani">
+	</div>
+	<div id="hots">
+	</div>
+	</body>
+	
+</html>
